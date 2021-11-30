@@ -22,7 +22,7 @@ The package is developed for ROS Melodic, and it should be compatible for the ot
     sudo apt-get install ros-${ROS_DISTRO}-turtlebot3
     sudo apt-get install ros-${ROS_DISTRO}-turtlebot3-msgs
     sudo apt-get install ros-${ROS_DISTRO}-teleop-twist-keyboard
-	sudo apt-get install python-opencv python-numpy python-scikits-learn   
+    sudo apt-get install python-opencv python-numpy python-scikits-learn   
  ```
 3. Clone this repository in the src folder in the catkin workspace.
 
