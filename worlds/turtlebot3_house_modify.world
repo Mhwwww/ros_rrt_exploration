@@ -41,8 +41,8 @@
 
          <friction>
               <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
+                <mu>0.1</mu>
+                <mu2>0.1</mu2>
                 <fdir1>1 0 0</fdir1>
                 <slip1>0.0</slip1>
                 <slip2>0.0</slip2>
@@ -53,20 +53,18 @@
           <contact>
              <collide_bitmask>0xffff</collide_bitmask>
               <ode>
-                <kp>5000</kp>
-                 <!--5000 is pretty ridiculously malleable, like a really underinflated yoga ball, ; 500,000 is good for truly solid objects like metals-->>
-                <kd>0</kd> 
+                <kp>8000</kp>
+                 <!--5000 is pretty ridiculously malleable, like a really underinflated yoga ball, ; 500,000 is good for truly solid objects like metals-->
+                <kd>15</kd> 
                 <!--0 represents a perfectly elastic collision (no kinetic energy is lost during collision) ; 100 is more like dropping a block of wood on the ground-->>
-
-
                 <min_depth>1.0</min_depth>
                 <max_vel>100</max_vel>
               </ode>
           </contact>
           <friction>
             <ode>
-              <mu>1</mu>
-              <mu2>1</mu2>
+              <mu>0.1</mu>
+              <mu2>0.1</mu2>
             </ode>
           </friction>
         </surface>
